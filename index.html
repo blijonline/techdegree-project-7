@@ -5,25 +5,19 @@
     <meta charset="utf-8">
     <title>Techdegree Project 7</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/mediaelementplayer.css" />
-    <link rel="stylesheet" href="css/styles.css">
-
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:700,300' rel='stylesheet' type='text/css'>
-    
+    <link rel="stylesheet" href="css/mediaelementplayer.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
-  <body>
-
-  <div id="container">
-    <div class="vidcontainer"> 
-  <video width="100%" height="100%" id="video" class="mejs__player">
-    <source type"video/mp4" src="assets/video/video.mp4">
-    <source type"video/mp4" src="assets/video/video.ogg">
-
+<body>
+<div id="container">
+  <div class="content"> 
+    <video id="video" style="width:100%; height:100%;" class="mejs__player">
+      <source type"video/mp4" src="assets/video/video.mp4">
+      <source type"video/mp4" src="assets/video/video.ogg">
   </video>
-      </div> <!-- /vidcontainer -->
-
-<main>
 
  <div id="captions">
           <p>
@@ -45,20 +39,17 @@
             <span data-start="49.270" data-end="53.760">the first stop a wire will make once inside your house, is at your modem.</span>
             <span data-start="53.760" data-end="57.780">A modem is what connects the internet to your network at home.</span>
             <span data-start="57.780" data-end="60.150">A few common residential modems are DSL or...</span>
-            </p>
-          </div>
-    </div>
-
-</main>
-
-  </div> <!-- container -->
+          </p>
+    </div> <!-- /#captions -->
+    </div> <!-- .content -->
+  </div> <!-- /#container -->
  
  <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous">  
  </script>
- <script src="js/mediaelement-and-player.js"></script>
+ <script type="text/javascript" src="js/mediaelement-and-player.js"></script>
  <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>

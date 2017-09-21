@@ -3529,7 +3529,7 @@ var config = exports.config = {
 
 	isVideo: true,
 
-	stretching: 'auto',
+	stretching: 'fill',
 
 	classPrefix: 'mejs__',
 
