@@ -16,10 +16,31 @@ body {
 	
 .content {
 	  width: 90%;
-	  margin: 40px auto;
-	  padding: 1.4em;
+	  margin: 20px auto;
 }
 
+/**** Video player *****/
+
+/* Border video overlay */
+
+.mejs__overlay {
+	border: 2px solid #d91420;
+}
+
+/* Controls background */
+
+.mejs__inner .mejs__controls {
+	background: #000;
+}
+
+/* Time bar */
+
+.mejs__time-current,
+.mejs__time-handle-content {
+    background: #d91420;
+}
+
+/* Media queries */
 
 @media (min-width: 786px) {
 
