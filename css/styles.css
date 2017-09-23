@@ -25,7 +25,8 @@ span {
 
 span:hover {
 	text-decoration: underline;
-	color: red;
+	color: #000;
+	transition: 1s;
 }
 
 /********** VIDEO PLAYER ***********/
@@ -58,7 +59,6 @@ span:hover {
 	color: #fff;
 	background: #d91420;
 }
-
 
 /********** MEDIA QUERIES **********/
 
